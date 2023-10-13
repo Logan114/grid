@@ -19,3 +19,38 @@ body {
   padding: 10px;
   border: solid green;
 }
+
+.kepek {
+  border: 1px solid black;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+
+}
+.pic {
+  border: 1px solid black;
+  padding: 10px;
+}
+.pic img {
+  width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    padding:0;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+.menu li {
+    background-color: red;
+    padding: 5px;
+    border: 1px solid hotpink;
+}
+.menu ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: aqua;
+    background-color: brown;
+}
